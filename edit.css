@@ -1,0 +1,43 @@
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+body {
+      background-color:lightyellow;
+	  font-family: Alba
+}
+#specialStyle {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+	
+	
+}
+
+h2 {
+  font-family: 'Mr Dafoe';
+  margin: 0;
+  font-size: 5.5em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-7deg);
+}
+
+#coolstyle {
+ font-family:georgia,serif;font-size:18px;
+ font-style:italic;
+ color:#3E2F2F;
+ letter-spacing:0;
+ line-height:1.429em;
+ padding:0;
+ text-align:center;
+ }
