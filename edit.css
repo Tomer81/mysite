@@ -12,24 +12,66 @@ img:hover {
 
 
 body {
-      background-color:lightyellow;
-	  font-family: Alba
+    background-color: lightyellow;
+    font-family: Ariel;
+	 font-size: 18px;
 }
+h1, h2, h3, h4, h5 {
+    font-size: 24px; 
+    font-family: Alba;
+	
+}
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns the images to the left */
+    gap: 20px; /* Adds space between the bands */
+}
+
+.band {
+    text-align: center; /* Center the text within each band */
+}
+
+.band img {
+    width: 250px; /* Set a fixed width for all images */
+    height: 250px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the images cover the set dimensions */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Center-aligns items vertically */
+    padding: 10px;
+}
+
+.text {
+    flex: 1; /* Takes up remaining space */
+}
+
+.image img {
+    max-width: 130px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.content {
+    padding: 10px;
+    text-align: right; /* Aligns content to the right */
+}
+
+.content p {
+    max-width: 600px; /* Adjust width as needed */
+    margin: 0; /* Removes default margin */
+    text-align: left; /* Ensure text is aligned left */
+}
+ֽ{
 #specialStyle {
   font-family: Copperplate, Papyrus, fantasy;
 }
 	
 	
-}
+
 
 h2 {
-  font-family: 'Mr Dafoe';
-  margin: 0;
-  font-size: 5.5em;
-  margin-top: -0.6em;
-  color: white;
-  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
-  transform: rotate(-7deg);
+  
 }
 
 #coolstyle {
